@@ -1,0 +1,107 @@
+body {
+	background-color: #696969;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+	border-radius: 20px;
+}
+
+.title {
+	display: grid;
+	text-align: center;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  grid-template-rows: 2.5fr 0.3fr;
+  gap: 1px 1px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pedals {
+	background-color: black;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 12px;
+	cursor: pointer;
+	height: 80px;
+}
+
+#rectangle {
+	height: 350px;
+	width: 50px;
+	background-color: lightyellow;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#speedNumber {
+	margin-top: 130px;
+	color: black;
+	background-color: lightyellow;
+	border-radius: 100px;
+	padding: 50px;
+}
+
+#functions {
+	text-decoration: underline;
+}
+
+#supplies {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.twoButtons {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	border-radius: 12px;
+	border: none;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.oneButton {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	border-radius: 12px;
+	border: none;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.zenMode {
+	background-color: #c3d3b2;
+}
